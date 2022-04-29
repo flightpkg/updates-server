@@ -9,5 +9,5 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ nightly: 'v0.0.1' })
+  res.status(200).json({ nightly: 'v0.0.5' })
 }
