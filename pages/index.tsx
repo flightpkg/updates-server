@@ -4,7 +4,7 @@ import Head from 'next/head'
 const Home: NextPage = () => {
   return (
       <Head>
-        <title>Create Next App</title>
+        <title>flightpkg updates server</title>
         <meta httpEquiv = "refresh" content = "0; url = https://flightpkg.js.org" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
