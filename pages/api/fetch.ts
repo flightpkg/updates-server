@@ -11,5 +11,5 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ stable: 'v0.0.5', beta: 'v0.0.5', nightly: 'v0.0.5' })
+  res.status(200).json({ stable: 'v0.34.0', beta: 'v0.34.0', nightly: 'v0.34.0' })
 }
